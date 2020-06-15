@@ -1,0 +1,68 @@
+/*Colors used:Primary color(blue): #05676e;
+Secondary color (green): #489c79;
+*/
+body {
+	background-color: lightgrey;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: #ffffff;
+	font-family: 'roboto', sans-sans-serif;
+	font-size: 16px;
+	/*sets font size to 16px */
+	font-weight: 300;
+	line-height: 1.6;
+	color: #4a4a4a;
+}
+h1, h2, h3, h4{
+	line-height: 1.4;
+}
+h1{
+	font-size: 2.25em;
+	font-weight: 700;
+}
+h2{
+	font-size: 2em;
+	font-weight: 700;
+}
+h3{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+h4{
+	font-size: 1.25em;
+	font-weight: 400;
+}
+img{
+	width: 100%;
+}
+a {
+	color: #ff7f50;
+	text-decoration: none;
+}
+a:visited{
+	color: #ff7f50;
+}
+a:hover,a:focus{
+	color: #cc6540;
+	text-decoration: underline;
+}
+a:active{
+	color: #994c30;
+}
+.button{
+	display: inline-block;
+	background-color: #2e4272;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #994c30;
+	transition: 0.2s opacity;
+}
+.button:hover{
+	opacity: 0.8;
+	text-decoration: none;
+}
