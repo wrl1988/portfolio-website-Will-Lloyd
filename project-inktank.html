@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <title>Project INKtank</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
+  <div id="header">
     <div>
-      <img src="https://via.placeholder.com/150x50?text=Logo" alt="Will Lloyd">
+      <img id="header-logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Will Lloyd">
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -19,10 +20,10 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </div>
   <!--about me start-->
   <main>
-    <div>
+    <div id="main">
       <!-- open orange container one-->
       <div>
         <!--open yellow about me wrapper-->
@@ -38,7 +39,7 @@
         <!--open dark green row for columns-->
         <div>
           <h2> Project Brief </h2>
-          <picture>
+          <picture class="photo">
             <source srcset="img/inktank/inktank@400 (1).png" media="(max width:767px)">
               <img src="img/inktank/inktank@400 (1).png" alt="Inktank">
           </picture>
@@ -125,14 +126,14 @@
     </div>
     <!--close orange container two-->
   </main>
-  <footer id="contact">
+  <footer id="footer">
     <div>
       <h2> Get in touch </h2>
       <div>
         <p> Have you enjoyed my work? Want to discuss collaboration opportunities? Please get in touch! Call <a href="tel:18015558085">801 555 8085</a></p>
         <p> Or <a href="mailto:will.lloyd416@gmail.com" class="button">email me</a></p>
       </div>
-      <div>
+      <div id="footer-socialmedia">
         <!--Social Media Layout and Placeholders-->
         <ul>
           <li><a href="https://www.linkedin.com/in/will-r-lloyd/" target="_blank"></li>
@@ -168,7 +169,9 @@
         </ul>
         <!--End Social Media-->
       </div>
-      <p> Copyright Will Lloyd 2020 </p>
+      <div id="footer-copyright">
+        <p> Copyright Will Lloyd 2020 </p>
+      </div>
     </div>
   </footer>
 </body>
