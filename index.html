@@ -12,10 +12,10 @@
 
 <body>
   <div id="header"> <!--hero section-->
-    <div>
-      <img id="header-logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Wll Lloyd">
+    <div class="container">
+      <img id="header-logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Will Lloyd">
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -24,25 +24,26 @@
     </div>
   </div>
   <main> <!--content section-->
-    <div id="main">
+    <div id="hero" class="container">
       <h1> Hello, my name is Will.</h1>
       <span> I'm a healthcare therapist turned UX Designer. </span>
     </div>
-    <div>
+    <div class="container">
       <!--My Work-->
-      <div>
-        <h2> My Work</h2>
-        <div>
+      <div id="work">
+        <h2 class="center"> My Work</h2>
+        <div class="row">
           <picture>
             <source srcset="img/inktank/inktank@400.png" media="(max-width:767px)">
             <img src="img/inktank/inktank@400.png" alt="INKtank">
           </picture>
         </div>
-        <div>
+        <div class="row">
           <h3> INKtank</h3>
           <p> INKtank is a tattoo inspiration app I designed while enrolled in the CareerFoundry UX Immersion course. It's meant to connect tattoo enthusiast with artists/studios
-            as well as others in the community through shared content, direct messaging and booking.<a href="project-inktank.html" class="button">View Project</a>
+            as well as others in the community through shared content, direct messaging and booking.
           </p>
+          <a href="project-inktank.html" class="button">View Project</a>
         </div>
       </div>
     </div>
@@ -51,7 +52,7 @@
   <main>
   </main>
   <footer id="footer">
-    <div>
+    <div class="container">
       <h2> Get in touch </h2>
       <div>
         <p> Have you enjoyed my work? Want to discuss collaboration opportunities? Please get in touch! Call <a href="tel:18015558085">801 555 8085</a></p>
