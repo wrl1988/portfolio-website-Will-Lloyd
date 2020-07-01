@@ -37,7 +37,7 @@ header {
   box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  width: 100%;
+  width: 1200px;
 }
 
 #header-logo {
@@ -52,13 +52,22 @@ header {
   margin-top: 0;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
+#footer-socialmedia {}
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 10px 10px;
+  display: inline-block;
+  width: 1200px;
+  margin: 10px;
+  box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  text-align: center;
 }
 
-h1 {
-  font-size: 2.25em;
-  font-weight: 700;
+#hero span {
+  display: block;
 }
 
 #main h1 {
@@ -69,6 +78,22 @@ h1 {
 #main .row {
   padding-bottom: 25px;
   border-bottom: 1px solid;
+}
+
+#work_project1 #work_project2 #social-img {
+  display: block;
+  max-width: 30px;
+  float: left;
+  padding: 10px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
 }
 
 h2 {
@@ -87,7 +112,7 @@ h4 {
 }
 
 img {
-  width: 50%;
+  width: 200px;
 }
 
 a {
@@ -125,13 +150,6 @@ a:active {
   opacity: 0.8;
 }
 
-#social-img {
-  display: block;
-  max-width: 30px;
-  float: left;
-  padding: 10px;
-}
-
 .container {
   max-width: 1200px;
   padding: 0px 15px;
@@ -144,18 +162,15 @@ a:active {
   padding-bottom: 10px;
 }
 
-.row:: after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .center {
   text-align: center;
 }
 
 .logo {
   max-width: 250px;
+}
+.icon {
+  width: 40px;
 }
 
 nav>ul {
@@ -182,24 +197,6 @@ nav>ul>li>a {
 
 .navigation {
   text-align: center;
-}
-
-#footer-socialmedia {}
-
-#hero {
-  background-color: #ffe4c4;
-  padding: 20px 10px;
-  display: inline-block;
-  width: 100%;
-  margin: 10px;
-  box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  text-align: center;
-}
-
-#hero span {
-  display: block;
 }
 
 [class*="col-"] {
@@ -296,4 +293,10 @@ Extra-large devices (1920px and larger)
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
