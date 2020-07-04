@@ -52,7 +52,12 @@ header {
   margin-top: 0;
 }
 
-#footer-socialmedia {}
+#footer-socialmedia {
+  display: inline-block;
+  align-content: center;
+
+}
+
 
 #hero {
   background-color: #ffe4c4;
@@ -152,7 +157,7 @@ a:active {
 
 .container {
   max-width: 1200px;
-  padding: 0px 15px;
+  padding: 0 15px 0 15px;
 }
 
 .row {
