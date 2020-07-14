@@ -30,7 +30,7 @@ main {
 }
 footer {
    margin: 10px;
-   width: 1200px;
+   max-width: 1200px;
  }
 #header {
   background-color: #faac5e;
@@ -43,7 +43,7 @@ footer {
   box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  width: 1200px;
+  max-width: 1200px;
 }
 
 #header-logo {
@@ -70,7 +70,7 @@ footer {
   background-color: #ffe4c4;
   padding: 10px 10px;
   display: inline-block;
-  width: 1200px;
+  max-width: 1200px;
   margin: 10px;
   box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
