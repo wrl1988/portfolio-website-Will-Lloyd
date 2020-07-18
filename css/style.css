@@ -172,6 +172,7 @@ a:active {
   /* 25px top and bottom, 0px left and right */
   border-bottom: 1px solid;
   padding-bottom: 10px;
+  overflow: auto;
 }
 
 .center {
@@ -215,10 +216,10 @@ nav>ul>li>a {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
-.navtoggle li .icon {
-  position: absolute;
+.navtoggle li .hamburger {
+  position: relative;
   right: 0;
-  top: 2px;
+  top: 5px;
   font-size: 20px;
   padding-right: 0;
 }
@@ -233,9 +234,11 @@ nav>ul>li>a {
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
-
 [class*="col-"] {
   float: left;
+}
+.col-md-6{
+  width: 100%;
 }
 
 /*====
@@ -349,7 +352,7 @@ Extra-large devices (1920px and larger)
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 .flex-box{
-  display: flex;
+  display: grid;
   flex-direction: row;
   justify-content: center;
 
