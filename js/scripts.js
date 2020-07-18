@@ -1,13 +1,13 @@
 console.log("Hello World!");
 function menuToggle() {
-  var x = document.getElementById("myNavtoggle");
-  if (x.className === "navtoggle") {
-    x.classname+="responsive";
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle') {
+    x.className += 'responsive';
   } else {
-    x.classname="navtoggle";
+    x.className = 'navtoggle';
   }
 }
-// Select all links with hashes
+// Select all links with hashes - shadow box the heaer and hero sections
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
