@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: #d5d5d5;
-  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   /*sets font size to 16px */
   font-weight: 300;
@@ -27,13 +27,15 @@ header {
 }
 main {
   padding-top: 0;
+  padding-right: 10px;
 }
 footer {
    margin: 10px;
    max-width: 1200px;
  }
+
 #header {
-  background-color: #faac5e;
+  background-color: #517aea;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -47,11 +49,12 @@ footer {
 }
 
 #header-logo {
+  text-align: center;
   display: inline-block;
   max-width: 100%;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   padding-top: 10px;
 }
 
@@ -65,16 +68,11 @@ footer {
 
 }
 
-
 #hero {
-  background-color: #ffe4c4;
-  padding: 10px 10px;
-  display: inline-block;
+  padding: 5px 10px 5px 10px;
   max-width: 1200px;
-  margin: 10px;
-  box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  margin: 0;
+
   text-align: center;
 }
 
@@ -99,18 +97,41 @@ footer {
   padding: 10px;
 }
 
+#work_project1_inktank_col1{
+  padding: 18px 0 0 0;
+}
+
+#work_project1_inktank-col2 {
+  padding: 0 0 20px 0;
+}
+#work_project1_project2_col1{
+  padding: 0 0 10px 0;
+}
+
+#work_project1_project2-col2 {
+  padding-bottom: 50px;
+}
+
+#inktank {
+  width: 200px;
+}
+
+#project-inktank {
+  width: 200px;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2em;
-  font-weight: 700;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 h3 {
@@ -124,12 +145,15 @@ h4 {
 }
 
 img {
-  width: 200px;
 }
 
 a {
   color: #ff7f50;
   text-decoration: none;
+}
+
+span {
+  font-size: 1em;
 }
 
 a:visited {
@@ -148,7 +172,7 @@ a:active {
 /*class "button"*/
 .button {
   display: inline-block;
-  background-color: #2e4272;
+  background-color: #517aea;
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -208,7 +232,7 @@ nav>ul>li>a {
 }
 
 .navigation {
-  text-align: left;
+  text-align: center;
 }
 .navtoggle li:not(:last-child) {
   display: none;
@@ -251,7 +275,7 @@ Medium devices (640px and larger)
   }
     nav {
     width: auto;
-    float: center;
+    float: inherit;
     margin-top: 4px;
   }
   nav > ul {
