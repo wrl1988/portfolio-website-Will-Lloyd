@@ -302,6 +302,10 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   .col-md-6 {
     width: 50%;
   }
